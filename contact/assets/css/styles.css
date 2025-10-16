@@ -1,0 +1,37 @@
+/* Contact Page Styles - Production-ready, minimal, brand-aligned */
+:root{
+  --brand-primary:#1e3a8a; /* deep blue */
+  --brand-secondary:#3b82f6; /* bright blue */
+  --brand-accent:#f59e0b; /* amber */
+  --bg-dark:#0f172a;
+}
+
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+
+.bg-gradient-dark{
+  background: linear-gradient(135deg,var(--bg-dark),#1e293b);
+}
+
+/* Header (from header.html) */
+.navbar .nav-link{opacity:.85}
+.navbar .nav-link:hover,.navbar .nav-link.active{opacity:1;color:var(--brand-accent)!important}
+
+/* Contact cards */
+.card{border-radius:12px}
+.card .card-body{padding:1.25rem}
+
+/* Form */
+#contact-form .form-control:focus{box-shadow:0 0 0 .2rem rgba(245,158,11,.2);border-color:var(--brand-accent)}
+#form-alert{transition:opacity .2s ease}
+
+/* Footer */
+footer a{color:#d1d5db}
+footer a:hover{color:var(--brand-accent)}
+
+/* Utilities */
+.ratio iframe{filter:hue-rotate(0deg) saturate(1)}
+
+@media (max-width: 576px){
+  .display-5{font-size:2rem}
+}
