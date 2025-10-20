@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="KCHC Logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="180" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect rx="8" width="180" height="48" fill="url(#g)"/>
+  <g fill="#F59E0B">
+    <path d="M24 10 l8 14 -8 14 -8-14 8-14z"/>
+  </g>
+  <text x="56" y="31" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">KCHC</text>
+</svg>
